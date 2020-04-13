@@ -99,3 +99,37 @@ const temp=`<h1>Hi ${func("Supragya")}</h1>
 <p>This is a simple paragraph</p>`
 document.getElementById("one").innerHTML=temp;
 */
+
+
+
+
+//new String and Number methods
+/*
+let string="Hi, I'm Supragya. I'm learning ES2015"
+
+console.log(string.startsWith("hi"));
+console.log(string.startsWith("Hi"));
+console.log(string.endsWith("015"));
+console.log(string.endsWith("learn"));
+console.log(string.includes("learn"));
+console.log(string.includes("man"));
+
+
+//hex
+console.log(0xA)
+//binary
+console.log(0b1111)
+//octal
+console.log(0o77)
+
+console.log(Number.isFinite(Infinity))
+console.log(Number.isFinite('Infinity'))
+console.log(Number.isFinite('abc'))
+
+console.log(Number.isNaN(Infinity))
+console.log(Number.isNaN(NaN))
+
+console.log(Number.isInteger(5))
+console.log(Number.isInteger(5.0))
+
+*/
