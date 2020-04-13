@@ -133,3 +133,14 @@ console.log(Number.isInteger(5))
 console.log(Number.isInteger(5.0))
 
 */
+
+
+//default parameters
+/*
+function greetFunction($greeting, $name="Supragya",$nothing)
+{
+  console.log(`${$greeting} ${$name}
+   ${$nothing}`)
+}
+greetFunction("Hello")
+*/
