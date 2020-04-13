@@ -86,3 +86,16 @@ Member.count();
 o2.getCity();
 
 */
+
+
+//Template literals
+/*
+function func(word)
+{
+  return word.toUpperCase()
+}
+
+const temp=`<h1>Hi ${func("Supragya")}</h1>
+<p>This is a simple paragraph</p>`
+document.getElementById("one").innerHTML=temp;
+*/
