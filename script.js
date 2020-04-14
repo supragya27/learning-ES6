@@ -209,3 +209,12 @@ wm.set(k2,g2);
 wm.delete(k1);
 console.log(wm)
 */
+
+//arrow function
+/*
+const sum=(a,b)=>{
+  console.log(a+b)
+}
+sum(5,4)
+
+*/
