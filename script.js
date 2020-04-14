@@ -231,3 +231,27 @@ let p=new Promise((resolve,reject)=>{
 
 p.then((message)=>console.log(message))
 .catch((message)=>console.log(message)) */
+
+/* 
+const userLeft=false;
+const userWatchingMeme=true;
+
+const whatchTutorial=()=>{
+  return new Promise((resolve,reject)=>{
+        if(userLeft)
+        {
+          reject({name:'User Left',message:':/'})
+        }
+        else if(userWatchingMeme)
+        {
+          reject({name:'User watching cat meme',message:'lul wut'})
+        }
+        else{
+          resolve('Subscribe!')
+        }
+  })
+}
+
+whatchTutorial().then((message)=>{console.log("success "+message)}).catch(
+  error=>{console.log(error.name+" "+error.message)}
+) */
