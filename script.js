@@ -255,3 +255,42 @@ const whatchTutorial=()=>{
 whatchTutorial().then((message)=>{console.log("success "+message)}).catch(
   error=>{console.log(error.name+" "+error.message)}
 ) */
+
+
+/* 
+const r1=new Promise((resolve,reject)=>{resolve("r1")})
+const r2=new Promise((resolve,reject)=>{reject("r2")})
+const r3=new Promise((resolve,reject)=>{resolve("r3")})
+
+Promise.race([r1,r2,r3]).then((message)=>console.log(message))
+.catch(message=>{console.log(message)})
+
+Promise.all([r1,r2,r3]).then((message)=>console.log(message))
+.catch(message=>{console.log(message)})
+
+ */
+
+
+ //generators
+
+ function *g1()
+ {
+   console.log("hello")
+   yield 'y1'
+   console.log("world")
+   yield 'y2'
+   return 'returned'
+ }
+
+ let g=g1();
+/* 
+ console.log(g.next())
+ console.log(g.next().value)
+ console.log(g.next())
+
+ console.log("---")
+ */
+ for(let gen of g)
+ {
+   console.log(gen)
+ }
