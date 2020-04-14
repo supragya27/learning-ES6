@@ -158,3 +158,54 @@ function print()
 
 print(...a1,...a2);
 */
+
+//set
+/*
+let arr=[1,2,3,4]
+let set=new Set(arr);
+console.log(set)
+console.log(set.size)
+//set.clear()
+set.add('10')
+set.delete(5)    //no effect
+set.delete(4)
+console.log(set)
+console.log(set.size)
+
+set.forEach(function(val){console.log(val)})
+*/
+
+//map
+/*
+let map=new Map([['a1','Hello'],['b2','Goodbye']])
+console.log(map)
+map.set('c3','Hi again')
+console.log(map.size)
+
+*/
+
+//weakSet
+/*
+let ws=new WeakSet();
+let g1={brand:'Yamaha',model:'F310'}
+ws.add(g1)
+let g2={brand:'Fender',model:'SA150'}
+ws.add(g2)
+console.log(ws)
+
+ws.delete(g1)
+*/
+
+//WeakMap
+/*
+let wm=new WeakMap();
+let k1={id:1}
+let g1={brand:'Yamaha',model:'F310'}
+let k2={id:2}
+let g2={brand:'Fender',model:'SA150'}
+
+wm.set(k1,g1);
+wm.set(k2,g2);
+wm.delete(k1);
+console.log(wm)
+*/
