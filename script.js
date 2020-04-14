@@ -144,3 +144,17 @@ function greetFunction($greeting, $name="Supragya",$nothing)
 }
 greetFunction("Hello")
 */
+
+//spread operator
+/*
+let a1=[1,2,3]
+let a2=[4,5,6,7]
+
+function print()
+{
+ // console.log(`${a1} ${a2}`)
+ console.log(a1+' '+a2)
+}
+
+print(...a1,...a2);
+*/
